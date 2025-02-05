@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.bucket-list {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bucket-list ul {
+    list-style-type: none;
+}
+
+.bucket-list li {
+    background-color: 	#fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+li:hover{
+color:green;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .bucket-list {
+        width: 95%;
+    }
+
+    .bucket-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    header p {
+        font-size: 0.9em;
+    }
+
+    
+
+   
+    }
+
+
+
+
+``
